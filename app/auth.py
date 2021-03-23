@@ -1,4 +1,5 @@
 from flask import Blueprint
+from app import app
 from . import db
 
 auth = Blueprint('auth', __name__)
