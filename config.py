@@ -31,7 +31,7 @@ class DevConfig(Config):
    Args:
        Config: The parent configuration class with General configuration settings
    '''
-   SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://moringa:qwerty12@localhost/ktown003'
+   SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://kadweka:qwerty12@localhost/ma3'
    DEBUG = True
 
 config_options = {
